@@ -1,7 +1,7 @@
 # 7DTD Server Configs
 Configuration Changes for 7DTD Server Version 13.6
 
-# Tweaks to items.xml
+## Tweaks to items.xml
 
 20: fireaxe
   * ActionSkillGroup changed from Blade Weapons to Mining Tools
@@ -27,7 +27,7 @@ Configuration Changes for 7DTD Server Version 13.6
   * VehicleMetersPerLiter changed from 8,12 to 40,60
   * The above changes makes the minibike about 5x more efficient on gas useage
   
-# Tweaks to blocks.xml
+## Tweaks to blocks.xml
 
 309: campfire
   * Can now be repaired using up to 5 rockSmall as materials
@@ -66,12 +66,12 @@ Configuration Changes for 7DTD Server Version 13.6
 1461: car03WhiteDamage1
   * Changed the 'Fall' event from car03BlueDamage2 to car03Damage2
   
-# Tweaks to entityclasses.xml
+## Tweaks to entityclasses.xml
 
 zombiedog
   * cleaned up the extra 'xxx' text after the xml node
   
-# Tweaks to recipes.xml
+## Tweaks to recipes.xml
 
 gunPowder
   * count increased from 1 to 2
@@ -83,7 +83,7 @@ glue
 gasCan
   * reduced grainAlcohol required from 6 to 3
   
-# Tweaks to loot.xml
+## Tweaks to loot.xml
 
 lootgroup: junk
   * increased ductTape count from 1,3 to 1,6
@@ -99,16 +99,16 @@ lootcontainer 100: "Undamaged Cars"
   * spawns 1 instance of the lootgroup in a 7x4 container
   * takes 4 seconds to open an untouched container
   
-# Tweaks to spawning.xml
+## Tweaks to spawning.xml
   
 Extended out the '49th' day spawn
   * copied the 49th 'NightHorde' day to every 7 days after, up to the 294th day
   
-# Tweaks to buffs.xml
+## Tweaks to buffs.xml
 
 Removed the wellness penalty from getting stunned
 
-# Tweaks to progression.xml
+## Tweaks to progression.xml
 
 Improved the Athletics skill
   * Added a scaling increase to stamina recovery. Stamina recovery should be twice as effective at skill lvl 100
@@ -117,3 +117,144 @@ Improved the Athletics skill
 Improved the Medicine skill
   * Previously, the Medicine skill had no effects at all
   * Added a scaling increase to hp regeneration. HP should regen at twice the rate at skill lvl 100
+
+# Food Mod
+The food mod changes a few recipes to make them make a little more sense. Instead of using jars full of water, some recipes will now require a bowl full of water, either as a cooking tool or as an actual ingredient. Some food will return an empty bowl when eaten. Also, the stews can be canned to creat an oderless version of the food, at the cost of loosing the wellness buff. Eating the canned stew will return the empty can to you, or it can be emptied into a bowl and then warmed up to regain the wellness buff.
+
+## Changes to recipes.xml
+
+bowl
+  * changed to be a forge produced item that takes 1 unit_clay to produce each bowl
+
+blueberryPie
+  * changed ingredient bottledWater to Bowl of Water
+
+cornBread
+  * changed cooking tool to Bowl of Water
+  * removed ingredient bottledWater
+
+cornOnTheCob
+  * changed cooking tool to Bowl of Water
+  * removed ingredient bottledWater
+
+eggboiled
+  * changed cooking tool to Bowl of Water
+  * removed ingredient bottledWater
+
+boiledMeat
+  * changed cooking tool to Bowl of Water
+  * removed ingredient bottledWater
+
+vegetableStew
+  * changed ingredient bottledWater to Bowl of Water
+
+meatStew
+  * changed ingredient bottledWater to Bowl of Water
+
+## New additions to recipes.xml
+
+Bowl of Water
+  * created in a campfire
+  * requires one Bowl of Murky Water
+
+Canned Meat Stew
+  * can be created in a campfire, same as meatStew + 2 canEmpty
+  * can be crafted from 1 meatStew and 2 canEmpty
+  * both recipes creat 2 items
+
+meatStew
+  * new recipe created in the campfire that requires 1 Cold Meat Stew
+
+Cold Meat Stew
+  * requires 1 bowl and 2 Canned Meat Stew
+
+Canned Vegetable Stew
+  * can be created in a campfire, same as vegetableStew + 2 canEmpty
+  * can be crafted from 1 vegetableStew and 2 canEmpty
+  * both recipes create 2 items
+
+vegetableStew
+  * new recipe created in the campfire that requires 1 Cold Vegetable Stew
+
+Cold Vegetable Stew
+  * requires 1 bowl and 2 Canned Vegetable Stew
+
+Mead
+  * can be created in a campfire
+  * requires 1 cornMeal, 1 bottledWater, and 1 foodHoney
+  * requires beaker as a cooking tool
+
+## Changes to items.xml
+
+238: meatStew
+  * now creates a bowl when eaten
+
+239: bowl
+  * Stacknumber set to 15
+
+234: blueberryPie
+  * now creates a bowl when eaten
+
+693: vegetableStew
+  * now creates a bowl when eaten
+
+## New additions to items.xml
+
+950: Bowl of Murky Water
+  * use a bowl on a source of water to create this item
+  * behaves exactly like a bottle of murky water
+
+951: Bowl of Water
+  * create in a campfire from a Bowl of Murky Water
+  * behaves exactly like a bottle of water
+
+952: Canned Meat Stew
+  * provides about half as much health and food as meatStew (because 2 are produced for each 1 meatStew)
+  * does not provide wellness
+  * does not have a smell
+
+953: Cold Meat Stew
+  * exactly the same as meatStew, except it provides no wellness
+  * can be converted to meatStew by cooking it on a campfire
+
+954: Canned Vegetable Stew
+  * provides about half as much health and food as vegetableStew (because 2 are produced for each 1 vegetableStew)
+  * does not provide wellness
+  * does not have a smell
+
+955: Cold Vegetable Stew
+  * exactly the same as vegetableStew, except it provides no wellness
+  * can be converted to vegetableStew by cooking it on a campfire
+
+956: Mead
+  * similar effect as drinking beer
+  * provides a small amount of wellness
+
+# Farming Mod
+The farming modification adds seeds for three existing plants, making them farmable.
+
+## New additions to items.xml
+
+1000: Chrysanthemum Seed
+1001: Yucca Seed
+1002: Aloe Seed
+
+## New additions to blocks.xml
+
+1600: sproutChrysanthemum
+1601: youngChrysanthemum
+1602: yuccasprout
+1603: yuccayoung
+1604: aloesprout
+1605: aloeyoung
+
+## New additions to recipes.xml
+
+Chrysanthemum Seed
+  * Produces 4 seeds per each Crysanthemum used (yes, that's how the plant is spelled in the game, it's missing the h)
+
+Yucca Seed
+  * Produces 2 seeds per each Yucca Plant used
+
+Aloe Seed
+  * Produces 2 seeds per each Aloe Plant used
