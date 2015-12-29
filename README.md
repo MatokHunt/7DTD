@@ -235,18 +235,18 @@ The farming modification adds seeds for three existing plants, making them farma
 
 ## New additions to items.xml
 
-1000: Chrysanthemum Seed<hr>
-1001: Yucca Seed<hr>
-1002: Aloe Seed<hr>
+1000: Chrysanthemum Seed<br>
+1001: Yucca Seed<br>
+1002: Aloe Seed<br>
 
 ## New additions to blocks.xml
 
-1600: sproutChrysanthemum<hr>
-1601: youngChrysanthemum<hr>
-1602: yuccasprout<hr>
-1603: yuccayoung<hr>
-1604: aloesprout<hr>
-1605: aloeyoung<hr>
+1600: sproutChrysanthemum<br>
+1601: youngChrysanthemum<br>
+1602: yuccasprout<br>
+1603: yuccayoung<br>
+1604: aloesprout<br>
+1605: aloeyoung<br>
 
 ## New additions to recipes.xml
 
