@@ -4,13 +4,13 @@ Configuration Changes for 7DTD Server Version 13.6
 # Tweaks to items.xml
 
 20: fireaxe
-  ActionSkillGroup changed from Blade Weapons to Mining Tools
+  * ActionSkillGroup changed from Blade Weapons to Mining Tools
   
 52: chainsaw
-  Delay changed from 0.2 to 1.5
-  DamageEntity changed from 16 to 64
-  DamageBonus.wood changed from 10 to 40
-  The above changes makes the chainsaw about 5x more effecient on gas useage
+  * Delay changed from 0.2 to 1.5
+  * DamageEntity changed from 16 to 64
+  * DamageBonus.wood changed from 10 to 40
+  * The above changes makes the chainsaw about 5x more effecient on gas useage
   
 53: auger
   Delay changed from 0.2 to 0.8
