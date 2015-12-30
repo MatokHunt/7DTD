@@ -103,6 +103,7 @@ lootcontainer 100: "Undamaged Cars"
   
 Extended out the '49th' day spawn
   * copied the 49th 'NightHorde' day to every 7 days after, up to the 294th day
+  * increased zombie wave size after day 100
   
 ## Tweaks to buffs.xml
 
