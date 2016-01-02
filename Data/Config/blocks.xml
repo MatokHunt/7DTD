@@ -2557,9 +2557,9 @@
     <property name="Model" value="LootContainers/trash_can01" param1="main_mesh" />
     <property name="LootList" value="16" />
 	<property class="RepairItems">
-		<property name="forgedIron" value="5" />	
+		<property name="scrapIron" value="5" />	
 	</property>
-    <drop event="Destroy" name="scrapIron" count="1" prob="1" />
+    <!--<drop event="Destroy" name="scrapIron" count="1" prob="1" />-->
   </block>
   <block id="336" name="bin">
     <property name="Class" value="Loot" />
@@ -4191,7 +4191,7 @@
     <property name="UpwardsCount" value="2" />
     <drop event="Destroy" name="scrapIron" count="1,3" prob="1" />
   </block>
-  <block id="517" name="rebar">xxx
+  <block id="517" name="rebar">
     <property name="Material" value="metal_medium" />
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />

@@ -36,13 +36,17 @@ Configuration Changes for 7DTD Server Version 13.6
   * Can now be repaired using up to 5 forgedIron
   
 335: trash_can01
-  * Can now be repaired using up to 5 forgedIron
+  * Can now be repaired using up to 5 scrapIron (changed from forgedIron)
+  * Can now be picked up and moved by mining the block.
   
 349: fridge
   * Can now be repaired using up to 5 forgedIron
   
 365: airConditioner
   * Added scrapCable as a harvestable item with a probability of 0.1 to recieve 1
+  
+517: rebar
+  * Removed stray 'xxx' text next to XML node
   
 840: fridgeTop
   * Can now be repaired using up to 5 forgedIron
