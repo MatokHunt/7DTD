@@ -2556,6 +2556,9 @@
     <property name="Mesh" value="models" />
     <property name="Model" value="LootContainers/trash_can01" param1="main_mesh" />
     <property name="LootList" value="16" />
+	<property class="RepairItems">
+		<property name="forgedIron" value="5" />	
+	</property>
     <drop event="Destroy" name="scrapIron" count="1" prob="1" />
   </block>
   <block id="336" name="bin">
