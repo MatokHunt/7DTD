@@ -35,6 +35,9 @@ Configuration Changes for 7DTD Server Version 13.6
 311: oven
   * Can now be repaired using up to 5 forgedIron
   
+335: trash_can01
+  * Can now be repaired using up to 5 forgedIron
+  
 349: fridge
   * Can now be repaired using up to 5 forgedIron
   
