@@ -7448,6 +7448,9 @@
     <property name="Shape" value="New" />
     <property name="Model" value="Pole0.5m" />
     <property name="Texture" value="21,21,241,241,241,241" />
+	<property class="RepairItems">
+		<property name="wood" value="10" />
+	</property>
     <drop event="Destroy" name="woodDebris" count="1" />
     <drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />    
   </block>

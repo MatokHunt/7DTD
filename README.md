@@ -60,6 +60,9 @@ Configuration Changes for 7DTD Server Version 13.6
 841: fridgeBottom
   * Can now be repaired using up to 5 forgedIron
   
+921: tubeHalfPoleWoodFull
+  * Can now be repaired using up to 10 wood
+
 1453: car03Blue
   * Loot list changed from id 19 to id 100 (see loot.xml changes for more information)
   
