@@ -42,8 +42,14 @@ Configuration Changes for 7DTD Server Version 13.6
 349: fridge
   * Can now be repaired using up to 5 forgedIron
   
+363: poleTop01
+  * Can now be repaired using up to 10 wood
+
 365: airConditioner
   * Added scrapCable as a harvestable item with a probability of 0.1 to recieve 1
+
+430: barbedFence
+  * Made it possible to pick up
   
 517: rebar
   * Removed stray 'xxx' text next to XML node

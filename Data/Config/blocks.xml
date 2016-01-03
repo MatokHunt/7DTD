@@ -2827,6 +2827,9 @@
     <property name="Shape" value="Ext3dModel" />
     <property name="Mesh" value="models" />
     <property name="Model" value="Industrial/pole_top01" param1="main_mesh" />
+	<property class="RepairItems">
+		<property name="wood" value="10" />	
+	</property>
     <drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
     <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />   
   </block>
@@ -3483,7 +3486,7 @@
 	<property name="Model" value="trap_barbed_fence_shape" />
     <property name="Place" value="TowardsPlacer" />
     <property name="Collide" value="melee" />
-    <property name="CanPickup" value="false" />
+    <property name="CanPickup" value="true" />
 	<property name="Texture" value="518" />
     <drop event="Destroy" count="0" />
     <property name="Group" value="Tools/Traps" />
