@@ -9850,4 +9850,115 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Rot" value="90,45,0" />
         </property>
     </item>
+	
+	<item id="1010" name="Cool Leather Jackets">
+        <property name="Meshfile" value="Items/Misc/Book" />
+		<property name="CustomIcon" value="leatherTanning" />
+		<property name="CustomIconTint" value="CEAD5A" />
+        <property name="Material" value="paper" />
+        <property name="HoldType" value="21" />
+        <property name="Stacknumber" value="50" />
+        <property class="Action1">
+            <!-- UseAction -->
+            <property name="Class" value="LearnRecipe" />
+            <property name="Recipes_to_learn" value="leatherDuster" />
+            <property name="Delay" value="0" />
+            <property name="Sound_start" value="Misc/recipe_unlocked" />
+        </property>
+        <property name="FuelValue" value="20" />
+        <property name="Weight" value="20" />
+        <property name="Group" value="Special Items" />
+        <property class="Preview">
+            <property name="Zoom" value="10" />
+            <property name="Pos" value="0,-0.2" />
+            <property name="Rot" value="90,45,0" />
+        </property>
+    </item>
+	
+	<item id="1100" name="Training: Tool Smithing">
+		<property name="Meshfile" value="Items/Misc/Book" />
+		<property name="CustomIcon" value="book" />
+        <property name="Material" value="plants" />
+        <property name="HoldType" value="21" />
+        <property name="Stacknumber" value="5000" />
+        <property name="FuelValue" value="20" />
+		<property name="Group" value="Tools/Traps,Basics" />
+		<property name="Weight" value="4" />
+		<property class="Preview">
+            <property name="Zoom" value="10" />
+            <property name="Pos" value="0,-0.2" />
+            <property name="Rot" value="90,45,0" />
+        </property>
+		<property name="ActionSkillGroup" value="Construction Tools"/>
+		<property name="CraftingSkillGroup" value="Tool Smithing"/>
+	</item>
+	
+	<item id="1101" name="Training: Tailoring">
+		<property name="Meshfile" value="Items/Misc/Book" />
+		<property name="CustomIcon" value="book" />
+        <property name="Material" value="plants" />
+        <property name="HoldType" value="21" />
+        <property name="Stacknumber" value="5000" />
+        <property name="FuelValue" value="20" />
+		<property name="Group" value="Clothing" />
+		<property class="Preview">
+            <property name="Zoom" value="10" />
+            <property name="Pos" value="0,-0.2" />
+            <property name="Rot" value="90,45,0" />
+        </property>
+		<property name="ActionSkillGroup" value="Clothing"/>
+		<property name="CraftingSkillGroup" value="Tailoring"/>
+	</item>
+	
+	<item id="1102" name="Training: Science">
+		<property name="Meshfile" value="Items/Misc/Book" />
+		<property name="CustomIcon" value="book" />
+        <property name="Material" value="cloth" />
+        <property name="HoldType" value="21" />
+        <property name="Stacknumber" value="5000" />
+        <property name="FuelValue" value="20" />
+		<property name="Group" value="Medicine" />
+		<property class="Preview">
+            <property name="Zoom" value="10" />
+            <property name="Pos" value="0,-0.2" />
+            <property name="Rot" value="90,45,0" />
+        </property>
+		<property name="ActionSkillGroup" value="Medicine"/>
+		<property name="CraftingSkillGroup" value="Science"/>
+	</item>
+	
+	<item id="1103" name="Training: Leatherworking">
+		<property name="Meshfile" value="Items/Misc/Book" />
+		<property name="CustomIcon" value="book" />
+        <property name="Material" value="leather" />
+        <property name="HoldType" value="21" />
+        <property name="Stacknumber" value="5000" />
+        <property name="FuelValue" value="20" />
+		<property name="Group" value="Clothing" />
+		<property name="Weight" value="60" />
+		<property class="Preview">
+            <property name="Zoom" value="10" />
+            <property name="Pos" value="0,-0.2" />
+            <property name="Rot" value="90,45,0" />
+        </property>
+		<property name="ActionSkillGroup" value="Light Armor"/>
+		<property name="CraftingSkillGroup" value="Leatherworking"/>
+	</item>
+	
+	<item id="1104" name="Training: Armor Smithing">
+		<property name="Meshfile" value="Items/Misc/Book" />
+		<property name="CustomIcon" value="book" />
+        <property name="Material" value="metal" />
+        <property name="HoldType" value="21" />
+        <property name="Stacknumber" value="5000" />
+        <property name="FuelValue" value="20" />
+		<property name="Group" value="Clothing" />
+		<property class="Preview">
+            <property name="Zoom" value="10" />
+            <property name="Pos" value="0,-0.2" />
+            <property name="Rot" value="90,45,0" />
+        </property>
+		<property name="ActionSkillGroup" value="Heavy Armor"/>
+		<property name="CraftingSkillGroup" value="Armor Smithing"/>
+	</item>
 </items>

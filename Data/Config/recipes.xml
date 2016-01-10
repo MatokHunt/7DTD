@@ -1446,10 +1446,37 @@
     </recipe>
 	
 	<recipe name="Yucca Seed" count="2" scrapable="False" >
-        <ingredient name="plantYucca" count="1" grid="0, 0"/>
+        <ingredient name="plantYucca" count="1" />
     </recipe>
       
     <recipe name="Aloe Seed" count="2" scrapable="False" >
-        <ingredient name="plantAloe" count="1" grid="0, 0"/>
+        <ingredient name="plantAloe" count="1" />
+    </recipe>
+	
+	<recipe name="Training: Tool Smithing" count="1" scrapable="True" >
+		<ingredient name="rockSmall" count="4" />
+		<ingredient name="yuccaFibers" count="4" />
+		<ingredient name="wood" count="4" />
+    </recipe>
+	
+	<recipe name="Training: Tailoring" count="1" scrapable="True" >
+		<ingredient name="yuccaFibers" count="10" />
+    </recipe>
+	
+	<recipe name="Training: Tailoring" count="1" scrapable="True" >
+		<ingredient name="cloth" count="10" />
+    </recipe>
+	
+	<recipe name="Training: Science" count="1" scrapable="True" >
+		<ingredient name="cloth" count="10" />
+    </recipe>
+	
+	<recipe name="Training: Leatherworking" count="1" scrapable="True" >
+		<ingredient name="leather" count="10" />
+    </recipe>
+	
+	<recipe name="Training: Armor Smithing" count="1" scrapable="True" >
+		<ingredient name="forgedIron" count="10" />
+		<ingredient name="leather" count="3" />
     </recipe>
 </recipes>

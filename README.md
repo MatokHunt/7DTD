@@ -27,6 +27,9 @@ Configuration Changes for 7DTD Server Version 13.6
   * VehicleMetersPerLiter changed from 8,12 to 40,60
   * The above changes makes the minibike about 5x more efficient on gas useage
   
+1010: Cool Leather Jackets
+  * added this new item to allow crafting of leatherDuster by players
+  
 ## Tweaks to blocks.xml
 
 309: campfire
@@ -109,6 +112,9 @@ lootgroup: undamagedCar
   * junk probability set to 0.5
   * junk count set to 1,2
   * automotive probability set to 0.45
+  
+ lootgroup: commonBooks
+  * added new item Cool Leather Jackets to the lootgroup
   
 lootcontainer 100: "Undamaged Cars"
   * new lootcontainer that makes use of the undamagedCar lootgroup
@@ -275,3 +281,32 @@ Yucca Seed
 
 Aloe Seed
   * Produces 2 seeds per each Aloe Plant used
+  
+# Simplified Training Mod
+Some crafting skills create an inventory management nightmare when attempting to craft multiple items to train up the skill. This mod adds five new Training items that can be crafted from the same base materials normally required to train up a skill, but are stackable up to 5000.
+
+## New additions to items.xml
+
+1100: Training: Tool Smithing
+1101: Training: Tailoring
+1102: Training: Science
+1103: Training: Leatherworking
+1104: Training: Armor Smithing
+
+## New additions to recipes.xml
+
+Training: Tool Smithing
+  * Requires 4 rockSmall, 4 yuccaFibers, and 4 wood
+  
+Training: Tailoring
+  * Requires 10 yuccaFibers
+  * Alternately, can be crafted with 10 cloth
+  
+Training: Science
+  * Requires 10 cloth
+  
+Training: Leatherworking
+  * Requires 10 leather
+  
+Training: Armor Smithing
+  * Requires 10 forgedIron and 3 leather

@@ -518,7 +518,7 @@
 		<item name="leatherJacketSchematic"/>
 		<item name="leatherPantsSchematic"/>
 		<item name="leatherGlovesSchematic"/>
-		
+		<item name="Cool Leather Jackets" />
 	</lootgroup>
 	
 	<lootgroup name="books" count="1">
