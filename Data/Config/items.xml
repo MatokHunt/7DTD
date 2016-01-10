@@ -638,7 +638,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 	
     <item id="27" name="chainsawSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
-        <property name="Material" value="paper" />
+        <property name="Material" value="book" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="50" />
         <property class="Action1">
@@ -649,7 +649,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
         <property name="FuelValue" value="20" />
-        <property name="Weight" value="20" />
+        <property name="Weight" value="8" />
         <property name="Group" value="Special Items" />
         <property class="Preview">
             <property name="Zoom" value="10" />
@@ -660,7 +660,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 	
     <item id="28" name="ak47Schematic">
         <property name="Meshfile" value="Items/Misc/Book" />
-        <property name="Material" value="paper" />
+        <property name="Material" value="book" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="50" />
         <property class="Action1">
@@ -671,7 +671,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
         <property name="FuelValue" value="20" />
-        <property name="Weight" value="20" />
+        <property name="Weight" value="8" />
         <property name="Group" value="Special Items" />
         <property class="Preview">
             <property name="Zoom" value="10" />
@@ -2185,11 +2185,11 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
     <!-- book -->
     <item id="225" name="book">
         <property name="Meshfile" value="Items/Misc/Book" />
-        <property name="Material" value="paper" />
+        <property name="Material" value="book" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="50" />
         <property name="FuelValue" value="20" />
-        <property name="Weight" value="20" />
+        <property name="Weight" value="6" />
         <property name="Group" value="Miscellaneous" />
         <property class="Preview">
             <property name="Zoom" value="10" />
@@ -5176,7 +5176,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
     <!-- Home maintenance book -->
     <item id="600" name="hammerSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
-        <property name="Material" value="paper" />
+        <property name="Material" value="book" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="50" />
         <property class="Action1">
@@ -5189,7 +5189,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
         <property name="FuelValue" value="20" />
-        <property name="Weight" value="20" />
+        <property name="Weight" value="8" />
         <property name="Group" value="Special Items" />
         <property class="Preview">
             <property name="Zoom" value="10" />
@@ -5200,7 +5200,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
     <!-- knife -->
     <item id="601" name="huntingKnifeBook">
         <property name="Meshfile" value="Items/Misc/Book" />
-        <property name="Material" value="paper" />
+        <property name="Material" value="book" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="50" />
         <property class="Action1">
@@ -5211,7 +5211,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
         <property name="FuelValue" value="20" />
-        <property name="Weight" value="20" />
+        <property name="Weight" value="8" />
         <property name="Group" value="Special Items" />
         <property class="Preview">
             <property name="Zoom" value="10" />
@@ -5222,7 +5222,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
     <!-- pistol book-->
     <item id="602" name="pistolBook">
         <property name="Meshfile" value="Items/Misc/Book" />
-        <property name="Material" value="paper" />
+        <property name="Material" value="book" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="50" />
         <property class="Action1">
@@ -5233,7 +5233,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
         <property name="FuelValue" value="20" />
-        <property name="Weight" value="20" />
+        <property name="Weight" value="8" />
         <property name="Group" value="Special Items" />
         <property class="Preview">
             <property name="Zoom" value="10" />
@@ -5244,7 +5244,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
     <!-- shotgun book-->
     <item id="603" name="pumpShotgunSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
-        <property name="Material" value="paper" />
+        <property name="Material" value="book" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="50" />
         <property class="Action1">
@@ -5255,7 +5255,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
         <property name="FuelValue" value="20" />
-        <property name="Weight" value="20" />
+        <property name="Weight" value="8" />
         <property name="Group" value="Special Items" />
         <property class="Preview">
             <property name="Zoom" value="10" />
@@ -5266,7 +5266,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
     <!-- ammo crafting-->
     <item id="604" name="ammunitionNationBook">
         <property name="Meshfile" value="Items/Misc/Book" />
-        <property name="Material" value="paper" />
+        <property name="Material" value="book" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="50" />
         <property class="Action1">
@@ -5277,7 +5277,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
         <property name="FuelValue" value="20" />
-        <property name="Weight" value="20" />
+        <property name="Weight" value="8" />
         <property name="Group" value="Special Items" />
         <property class="Preview">
             <property name="Zoom" value="10" />
@@ -5288,7 +5288,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
     <!-- ammo crafting-->
     <item id="605" name="shotgunShellSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
-        <property name="Material" value="paper" />
+        <property name="Material" value="book" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="50" />
         <property class="Action1">
@@ -5299,7 +5299,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
         <property name="FuelValue" value="20" />
-        <property name="Weight" value="20" />
+        <property name="Weight" value="8" />
         <property name="Group" value="Special Items" />
         <property class="Preview">
             <property name="Zoom" value="10" />
@@ -5309,7 +5309,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
     </item>
     <item id="606" name="theEnforcerMagazine">
         <property name="Meshfile" value="Items/Misc/Book" />
-        <property name="Material" value="paper" />
+        <property name="Material" value="book" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="50" />
         <property class="Action1">
@@ -5320,7 +5320,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
         <property name="FuelValue" value="20" />
-        <property name="Weight" value="20" />
+        <property name="Weight" value="8" />
         <property name="Group" value="Special Items" />
         <property class="Preview">
             <property name="Zoom" value="10" />
@@ -5330,7 +5330,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
     </item>
     <item id="607" name="smgSchematics">
         <property name="Meshfile" value="Items/Misc/Book" />
-        <property name="Material" value="paper" />
+        <property name="Material" value="book" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="50" />
         <property class="Action1">
@@ -5341,7 +5341,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
         <property name="FuelValue" value="20" />
-        <property name="Weight" value="20" />
+        <property name="Weight" value="8" />
         <property name="Group" value="Special Items" />
         <property class="Preview">
             <property name="Zoom" value="10" />
@@ -5478,7 +5478,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
     <!-- leather crafting-->
     <item id="623" name="leatherTanning">
         <property name="Meshfile" value="Items/Misc/Book" />
-        <property name="Material" value="paper" />
+        <property name="Material" value="book" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="50" />
         <property class="Action1">
@@ -5489,7 +5489,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
         <property name="FuelValue" value="20" />
-        <property name="Weight" value="20" />
+        <property name="Weight" value="8" />
         <property name="Group" value="Special Items" />
         <property class="Preview">
             <property name="Zoom" value="10" />
@@ -5500,7 +5500,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
     <!-- iron helmet schematic -->
     <item id="624" name="ironHelmetSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
-        <property name="Material" value="paper" />
+        <property name="Material" value="book" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="50" />
         <property class="Action1">
@@ -5511,7 +5511,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
         <property name="FuelValue" value="20" />
-        <property name="Weight" value="20" />
+        <property name="Weight" value="8" />
         <property name="Group" value="Special Items" />
         <property class="Preview">
             <property name="Zoom" value="10" />
@@ -5522,7 +5522,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
     <!-- iron chest armor schematic -->
     <item id="625" name="ironChestArmorSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
-        <property name="Material" value="paper" />
+        <property name="Material" value="book" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="50" />
         <property class="Action1">
@@ -5533,7 +5533,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
         <property name="FuelValue" value="20" />
-        <property name="Weight" value="20" />
+        <property name="Weight" value="8" />
         <property name="Group" value="Special Items" />
         <property class="Preview">
             <property name="Zoom" value="10" />
@@ -5544,7 +5544,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
     <!-- iron leg armor schematic -->
     <item id="626" name="ironLegArmorSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
-        <property name="Material" value="paper" />
+        <property name="Material" value="book" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="50" />
         <property class="Action1">
@@ -5555,7 +5555,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
         <property name="FuelValue" value="20" />
-        <property name="Weight" value="20" />
+        <property name="Weight" value="8" />
         <property name="Group" value="Special Items" />
         <property class="Preview">
             <property name="Zoom" value="10" />
@@ -5566,7 +5566,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
     <!-- iron boot armor schematic -->
     <item id="627" name="ironBootsSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
-        <property name="Material" value="paper" />
+        <property name="Material" value="book" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="50" />
         <property class="Action1">
@@ -5577,7 +5577,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
         <property name="FuelValue" value="20" />
-        <property name="Weight" value="20" />
+        <property name="Weight" value="8" />
         <property name="Group" value="Special Items" />
         <property class="Preview">
             <property name="Zoom" value="10" />
@@ -5588,7 +5588,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
     <!-- iron gloves -->
     <item id="628" name="ironGlovesSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
-        <property name="Material" value="paper" />
+        <property name="Material" value="book" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="50" />
         <property class="Action1">
@@ -5599,7 +5599,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
         <property name="FuelValue" value="20" />
-        <property name="Weight" value="20" />
+        <property name="Weight" value="8" />
         <property name="Group" value="Special Items" />
         <property class="Preview">
             <property name="Zoom" value="10" />
@@ -5988,7 +5988,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
     <!-- Home maintenance book volume II-->
     <item id="641" name="sledgehammerSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
-        <property name="Material" value="paper" />
+        <property name="Material" value="book" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="50" />
         <property class="Action1">
@@ -5999,7 +5999,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
         <property name="FuelValue" value="20" />
-        <property name="Weight" value="20" />
+        <property name="Weight" value="8" />
         <property name="Group" value="Special Items" />
         <property class="Preview">
             <property name="Zoom" value="10" />
@@ -6594,7 +6594,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
     <!-- MacDyvers guide to scrapmetal building -->
     <item id="695" name="macDyverBook">
         <property name="Meshfile" value="Items/Misc/Book" />
-        <property name="Material" value="paper" />
+        <property name="Material" value="book" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="50" />
         <property class="Action1">
@@ -6605,7 +6605,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
         <property name="FuelValue" value="20" />
-        <property name="Weight" value="20" />
+        <property name="Weight" value="8" />
         <property name="Group" value="Special Items" />
         <property class="Preview">
             <property name="Zoom" value="10" />
@@ -6978,7 +6978,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
     <!-- hunting book-->
     <item id="724" name="huntingRifleSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
-        <property name="Material" value="paper" />
+        <property name="Material" value="book" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="50" />		
         <property class="Action1">
@@ -6989,7 +6989,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
         <property name="FuelValue" value="20" />
-        <property name="Weight" value="20" />
+        <property name="Weight" value="8" />
         <property name="Group" value="Special Items" />
         <property class="Preview">
             <property name="Zoom" value="10" />
@@ -7000,7 +7000,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
     <!-- sniper rifle schematic -->
     <item id="725" name="sniperRifleSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
-        <property name="Material" value="paper" />
+        <property name="Material" value="book" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="50" />
 		
@@ -7012,7 +7012,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
         <property name="FuelValue" value="20" />
-        <property name="Weight" value="20" />
+        <property name="Weight" value="8" />
         <property name="Group" value="Special Items" />
         <property class="Preview">
             <property name="Zoom" value="10" />
@@ -7365,7 +7365,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
     
      <item id="745" name="setInConcrete">
         <property name="Meshfile" value="Items/Misc/Book" />
-        <property name="Material" value="paper" />
+        <property name="Material" value="book" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="50" />
         <property class="Action1">
@@ -7376,7 +7376,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
         <property name="FuelValue" value="20" />
-        <property name="Weight" value="20" />
+        <property name="Weight" value="8" />
         <property name="Group" value="Special Items" />
         <property class="Preview">
             <property name="Zoom" value="10" />
@@ -7458,7 +7458,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
       
      <item id="749" name="minibikesForDumbshits">
         <property name="Meshfile" value="Items/Misc/Book" />
-        <property name="Material" value="paper" />
+        <property name="Material" value="book" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="50" />
         <property class="Action1">
@@ -7469,7 +7469,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
         <property name="FuelValue" value="20" />
-        <property name="Weight" value="20" />
+        <property name="Weight" value="8" />
         <property name="Group" value="Special Items" />
         <property class="Preview">
             <property name="Zoom" value="10" />
@@ -7570,7 +7570,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
     
      <item id="755" name="theRiddleOfSteel">
         <property name="Meshfile" value="Items/Misc/Book" />
-        <property name="Material" value="paper" />
+        <property name="Material" value="book" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="50" />
         <property class="Action1">
@@ -7583,7 +7583,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
         <property name="FuelValue" value="20" />
-        <property name="Weight" value="20" />
+        <property name="Weight" value="8" />
         <property name="Group" value="Special Items" />
         <property class="Preview">
             <property name="Zoom" value="10" />
@@ -7619,7 +7619,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
                
      <item id="757" name="herbalAntibioticsRecipe">
         <property name="Meshfile" value="Items/Misc/Book" />
-        <property name="Material" value="paper" />
+        <property name="Material" value="book" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="50" />
         <property class="Action1">
@@ -7632,7 +7632,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
         <property name="FuelValue" value="20" />
-        <property name="Weight" value="20" />
+        <property name="Weight" value="8" />
         <property name="Group" value="Special Items" />
         <property class="Preview">
             <property name="Zoom" value="10" />
@@ -7893,7 +7893,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
     
     <item id="770" name="shotgunSlugSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
-        <property name="Material" value="paper" />
+        <property name="Material" value="book" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="50" />
         <property class="Action1">
@@ -7904,7 +7904,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
         <property name="FuelValue" value="20" />
-        <property name="Weight" value="20" />
+        <property name="Weight" value="8" />
         <property name="Group" value="Special Items" />
         <property class="Preview">
             <property name="Zoom" value="10" />
@@ -7917,7 +7917,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
     
     <item id="771" name="762mmBulletSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
-        <property name="Material" value="paper" />
+        <property name="Material" value="book" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="50" />
         <property class="Action1">
@@ -7928,7 +7928,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
         <property name="FuelValue" value="20" />
-        <property name="Weight" value="20" />
+        <property name="Weight" value="8" />
         <property name="Group" value="Special Items" />
         <property class="Preview">
             <property name="Zoom" value="10" />
@@ -7939,7 +7939,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
     
     <item id="772" name="10mmBulletSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
-        <property name="Material" value="paper" />
+        <property name="Material" value="book" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="50" />
         <property class="Action1">
@@ -7950,7 +7950,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
         <property name="FuelValue" value="20" />
-        <property name="Weight" value="20" />
+        <property name="Weight" value="8" />
         <property name="Group" value="Special Items" />
         <property class="Preview">
             <property name="Zoom" value="10" />
@@ -8034,7 +8034,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
    
     <item id="775" name="9mmBulletSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
-        <property name="Material" value="paper" />
+        <property name="Material" value="book" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="50" />
         <property class="Action1">
@@ -8045,7 +8045,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
         <property name="FuelValue" value="20" />
-        <property name="Weight" value="20" />
+        <property name="Weight" value="8" />
         <property name="Group" value="Special Items" />
         <property class="Preview">
             <property name="Zoom" value="10" />
@@ -8056,7 +8056,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             
     <item id="776" name="handleBarsSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
-        <property name="Material" value="paper" />
+        <property name="Material" value="book" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="50" />
         <property class="Action1">
@@ -8067,7 +8067,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
         <property name="FuelValue" value="20" />
-        <property name="Weight" value="20" />
+        <property name="Weight" value="8" />
         <property name="Group" value="Special Items" />
         <property class="Preview">
             <property name="Zoom" value="10" />
@@ -8101,7 +8101,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
     <!-- leather crafting-->
     <item id="778" name="leatherBootsSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
-        <property name="Material" value="paper" />
+        <property name="Material" value="book" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="50" />
         <property class="Action1">
@@ -8112,7 +8112,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
         <property name="FuelValue" value="20" />
-        <property name="Weight" value="20" />
+        <property name="Weight" value="8" />
         <property name="Group" value="Special Items" />
         <property class="Preview">
             <property name="Zoom" value="10" />
@@ -8124,7 +8124,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
     <!-- leather crafting-->
     <item id="779" name="leatherPantsSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
-        <property name="Material" value="paper" />
+        <property name="Material" value="book" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="50" />
         <property class="Action1">
@@ -8135,7 +8135,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
         <property name="FuelValue" value="20" />
-        <property name="Weight" value="20" />
+        <property name="Weight" value="8" />
         <property name="Group" value="Special Items" />
         <property class="Preview">
             <property name="Zoom" value="10" />
@@ -8148,7 +8148,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
     <!-- leather crafting-->
     <item id="780" name="leatherJacketSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
-        <property name="Material" value="paper" />
+        <property name="Material" value="book" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="50" />
         <property class="Action1">
@@ -8159,7 +8159,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
         <property name="FuelValue" value="20" />
-        <property name="Weight" value="20" />
+        <property name="Weight" value="8" />
         <property name="Group" value="Special Items" />
         <property class="Preview">
             <property name="Zoom" value="10" />
@@ -8171,7 +8171,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
     <!-- leather crafting-->
     <item id="781" name="leatherHoodSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
-        <property name="Material" value="paper" />
+        <property name="Material" value="book" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="50" />
         <property class="Action1">
@@ -8182,7 +8182,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
         <property name="FuelValue" value="20" />
-        <property name="Weight" value="20" />
+        <property name="Weight" value="8" />
         <property name="Group" value="Special Items" />
         <property class="Preview">
             <property name="Zoom" value="10" />
@@ -8194,7 +8194,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
     <!-- leather crafting-->
     <item id="782" name="leatherGlovesSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
-        <property name="Material" value="paper" />
+        <property name="Material" value="book" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="50" />
         <property class="Action1">
@@ -8205,7 +8205,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
         <property name="FuelValue" value="20" />
-        <property name="Weight" value="20" />
+        <property name="Weight" value="8" />
         <property name="Group" value="Special Items" />
         <property class="Preview">
             <property name="Zoom" value="10" />
@@ -8231,7 +8231,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
     
     <item id="790" name="firstAidKitSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
-        <property name="Material" value="paper" />
+        <property name="Material" value="book" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="50" />
         <property class="Action1">
@@ -8242,7 +8242,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
         <property name="FuelValue" value="20" />
-        <property name="Weight" value="20" />
+        <property name="Weight" value="8" />
         <property name="Group" value="Special Items" />
         <property class="Preview">
             <property name="Zoom" value="10" />
@@ -8254,7 +8254,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
     <!-- book -->
     <item id="791" name="gasCanSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
-        <property name="Material" value="paper" />
+        <property name="Material" value="book" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="50" />
         <property class="Action1">
@@ -8265,7 +8265,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
         <property name="FuelValue" value="20" />
-        <property name="Weight" value="20" />
+        <property name="Weight" value="8" />
         <property name="Group" value="Special Items" />
         <property class="Preview">
             <property name="Zoom" value="10" />
@@ -8276,7 +8276,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
     
     <item id="792" name="clubSpikedSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
-        <property name="Material" value="paper" />
+        <property name="Material" value="book" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="50" />
         <property class="Action1">
@@ -8287,7 +8287,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
         <property name="FuelValue" value="20" />
-        <property name="Weight" value="20" />
+        <property name="Weight" value="8" />
         <property name="Group" value="Special Items" />
         <property class="Preview">
             <property name="Zoom" value="10" />
@@ -8299,7 +8299,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
     <!-- shotgun book-->
     <item id="793" name="sawedoffPumpShotgunSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
-        <property name="Material" value="paper" />
+        <property name="Material" value="book" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="50" />
         <property class="Action1">
@@ -8310,7 +8310,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
         <property name="FuelValue" value="20" />
-        <property name="Weight" value="20" />
+        <property name="Weight" value="8" />
         <property name="Group" value="Special Items" />
         <property class="Preview">
             <property name="Zoom" value="10" />
@@ -8323,7 +8323,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
     
     <item id="794" name="flamingArrowSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
-        <property name="Material" value="paper" />
+        <property name="Material" value="book" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="50" />
         <property class="Action1">
@@ -8334,7 +8334,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
         <property name="FuelValue" value="20" />
-        <property name="Weight" value="20" />
+        <property name="Weight" value="8" />
         <property name="Group" value="Special Items" />
         <property class="Preview">
             <property name="Zoom" value="10" />
@@ -8345,7 +8345,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
                
     <item id="795" name="augerSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
-        <property name="Material" value="paper" />
+        <property name="Material" value="book" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="50" />
         <property class="Action1">
@@ -8356,7 +8356,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
         <property name="FuelValue" value="20" />
-        <property name="Weight" value="20" />
+        <property name="Weight" value="8" />
         <property name="Group" value="Special Items" />
         <property class="Preview">
             <property name="Zoom" value="10" />
@@ -8368,7 +8368,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
     <!-- Home maintenance book -->
     <item id="796" name="wrenchSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
-        <property name="Material" value="paper" />
+        <property name="Material" value="book" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="50" />
         <property class="Action1">
@@ -8379,7 +8379,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
         <property name="FuelValue" value="20" />
-        <property name="Weight" value="20" />
+        <property name="Weight" value="8" />
         <property name="Group" value="Special Items" />
         <property class="Preview">
             <property name="Zoom" value="10" />
@@ -8510,7 +8510,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
     
     <item id="800" name="crossbowSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
-        <property name="Material" value="paper" />
+        <property name="Material" value="book" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="50" />
         <property class="Action1">
@@ -8521,7 +8521,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
         <property name="FuelValue" value="20" />
-        <property name="Weight" value="20" />
+        <property name="Weight" value="8" />
         <property name="Group" value="Special Items" />
         <property class="Preview">
             <property name="Zoom" value="10" />
@@ -8532,7 +8532,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
     
     <item id="801" name="explodingCrossbowBoltSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
-        <property name="Material" value="paper" />
+        <property name="Material" value="book" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="50" />
         <property class="Action1">
@@ -8543,7 +8543,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
         <property name="FuelValue" value="20" />
-        <property name="Weight" value="20" />
+        <property name="Weight" value="8" />
         <property name="Group" value="Special Items" />
         <property class="Preview">
             <property name="Zoom" value="10" />
@@ -8781,7 +8781,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
     <!-- Gating book -->
     <item id="810" name="invisibleRecipesForRepairCost">
         <property name="Meshfile" value="Items/Misc/Book" />
-        <property name="Material" value="paper" />
+        <property name="Material" value="book" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="50" />
         <property class="Action1">
@@ -8794,7 +8794,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
         <property name="FuelValue" value="20" />
-        <property name="Weight" value="20" />
+        <property name="Weight" value="8" />
         <property name="Group" value="Special Items" />
         <property class="Preview">
             <property name="Zoom" value="10" />
@@ -9491,7 +9491,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
 	
     <item id="843" name="rocketLauncherSchematic">
         <property name="Meshfile" value="Items/Misc/Book" />
-        <property name="Material" value="paper" />
+        <property name="Material" value="book" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="50" />
         <property class="Action1">
@@ -9502,7 +9502,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
         <property name="FuelValue" value="20" />
-        <property name="Weight" value="20" />
+        <property name="Weight" value="8" />
         <property name="Group" value="Special Items" />
         <property class="Preview">
             <property name="Zoom" value="10" />
@@ -9855,7 +9855,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         <property name="Meshfile" value="Items/Misc/Book" />
 		<property name="CustomIcon" value="leatherTanning" />
 		<property name="CustomIconTint" value="CEAD5A" />
-        <property name="Material" value="paper" />
+        <property name="Material" value="book" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="50" />
         <property class="Action1">
@@ -9866,7 +9866,7 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
             <property name="Sound_start" value="Misc/recipe_unlocked" />
         </property>
         <property name="FuelValue" value="20" />
-        <property name="Weight" value="20" />
+        <property name="Weight" value="8" />
         <property name="Group" value="Special Items" />
         <property class="Preview">
             <property name="Zoom" value="10" />
@@ -9960,5 +9960,20 @@ And for the repair and upgrade actions, each swing for repair or upgrade will gi
         </property>
 		<property name="ActionSkillGroup" value="Heavy Armor"/>
 		<property name="CraftingSkillGroup" value="Armor Smithing"/>
+	</item>
+	
+	<item id="1110" name="Drafting Tools">
+		<property name="Meshfile" value="Items/Misc/Book" />
+		<property name="CustomIcon" value="repairKit" />
+		<property name="CustomIconTint" value="B77100" />
+        <property name="Material" value="book" />
+        <property name="HoldType" value="21" />
+        <property name="Stacknumber" value="50" />
+        <property name="FuelValue" value="20" />
+		<property class="Preview">
+            <property name="Zoom" value="10" />
+            <property name="Pos" value="0,-0.2" />
+            <property name="Rot" value="90,45,0" />
+        </property>
 	</item>
 </items>

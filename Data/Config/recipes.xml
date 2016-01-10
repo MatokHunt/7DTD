@@ -252,7 +252,7 @@
     <recipe name="boneShiv" count="1" scrapable="False" >
         <ingredient name="femur" count="1"/>
     </recipe>
-
+	
     <recipe name="book" count="1" scrapable="False" >
         <ingredient name="paper" count="64"/>
     </recipe>
@@ -1478,5 +1478,292 @@
 	<recipe name="Training: Armor Smithing" count="1" scrapable="True" >
 		<ingredient name="forgedIron" count="10" />
 		<ingredient name="leather" count="3" />
+    </recipe>
+	
+	<recipe name="book" count="1" scrapable="False" tooltip="ttScrapMetalBrass" >
+        <wildcard_forge_category />
+    </recipe>
+		
+	<recipe name="Drafting Tools" count="1" scrapable="False" craft_time = "5" craft_exp_gain="0" >
+		<ingredient name="book" count="5" />
+		<ingredient name="repairKit" count="1" />
+    </recipe>
+	
+	<recipe name="ak47Schematic" count="1" scrapable="False" craft_time = "10" craft_exp_gain="0" >
+		<ingredient name="ak47_stock" count="1" />
+		<ingredient name="ak47_receiver" count="1" />
+		<ingredient name="ak47_barrel" count="1" />
+		<ingredient name="ak47_parts" count="1" />
+		<ingredient name="Drafting Tools" count="1" />
+    </recipe>
+	
+	<recipe name="hammerSchematic" count="1" scrapable="False" craft_time = "10" craft_exp_gain="0" >
+		<ingredient name="forgedIron" count="15" />
+		<ingredient name="wood" count="15" />
+		<ingredient name="Drafting Tools" count="1" />
+    </recipe>
+	
+	<recipe name="huntingKnifeBook" count="1" scrapable="False" craft_time = "10" craft_exp_gain="0" >
+		<ingredient name="forgedIron" count="10" />
+		<ingredient name="wood" count="10" />
+		<ingredient name="Drafting Tools" count="1" />
+	</recipe>
+	
+	<recipe name="pistolBook" count="1" scrapable="False" craft_time = "10" craft_exp_gain="0" >
+		<ingredient name="pistol_grip" count="1" />
+		<ingredient name="pistol_receiver" count="1" />
+		<ingredient name="pistol_barrel" count="1" />
+		<ingredient name="pistol_parts" count="1" />
+		<ingredient name="Drafting Tools" count="1" />
+    </recipe>
+	
+	<recipe name="pumpShotgunSchematic" count="1" scrapable="False" craft_time = "10" craft_exp_gain="0" >
+		<ingredient name="PumpShotgun_barrel" count="1" />
+		<ingredient name="PumpShotgun_parts" count="1" />
+		<ingredient name="PumpShotgun_receiver" count="1" />
+		<ingredient name="PumpShotgun_stock" count="1" />
+		<ingredient name="Drafting Tools" count="1" />
+    </recipe>
+	
+	<recipe name="ammunitionNationBook" count="1" scrapable="False" craft_time = "10" craft_exp_gain="0" >
+		<ingredient name="scrapLead" count="10" />
+		<ingredient name="scrapBrass" count="10" />
+		<ingredient name="Drafting Tools" count="1" />
+    </recipe>
+	
+	<recipe name="shotgunShellSchematic" count="1" scrapable="False" craft_time = "10" craft_exp_gain="0" >
+		<ingredient name="paper" count="5" />
+		<ingredient name="scrapLead" count="5" />
+		<ingredient name="gunPowder" count="5" />
+		<ingredient name="Drafting Tools" count="1" />
+    </recipe>
+	
+	<recipe name="theEnforcerMagazine" count="1" scrapable="False" craft_time = "10" craft_exp_gain="0" >
+		<ingredient name="44MagnumCylinder" count="1" />
+		<ingredient name="44MagnumFrame" count="1" />
+		<ingredient name="44MagnumGrip" count="1" />
+		<ingredient name="44MagnumParts" count="1" />
+		<ingredient name="Drafting Tools" count="1" />
+    </recipe>
+	
+	<recipe name="smgSchematics" count="1" scrapable="False" craft_time = "10" craft_exp_gain="0" >
+		<ingredient name="mp5_barrel" count="1" />
+		<ingredient name="mp5_parts" count="1" />
+		<ingredient name="mp5_receiver" count="1" />
+		<ingredient name="mp5_stock" count="1" />
+		<ingredient name="Drafting Tools" count="1" />
+    </recipe>
+	
+	<recipe name="leatherTanning" count="1" scrapable="False" craft_time = "10" craft_exp_gain="0" >
+		<ingredient name="animalHide" count="20" />
+		<ingredient name="Drafting Tools" count="1" />
+    </recipe>
+	
+	<recipe name="ironHelmetSchematic" count="1" scrapable="False" craft_time = "10" craft_exp_gain="0" >
+		<ingredient name="forgedIron" count="25" />
+		<ingredient name="wood" count="15" />
+		<ingredient name="Drafting Tools" count="1" />
+    </recipe>
+	
+	<recipe name="ironChestArmorSchematic" count="1" scrapable="False" craft_time = "10" craft_exp_gain="0" >
+		<ingredient name="forgedIron" count="50" />
+		<ingredient name="wood" count="15" />
+		<ingredient name="Drafting Tools" count="1" />
+    </recipe>
+	
+	<recipe name="ironLegArmorSchematic" count="1" scrapable="False" craft_time = "10" craft_exp_gain="0" >
+		<ingredient name="forgedIron" count="25" />
+		<ingredient name="wood" count="15" />
+		<ingredient name="Drafting Tools" count="1" />
+    </recipe>
+	
+	<recipe name="ironBootsSchematic" count="1" scrapable="False" craft_time = "10" craft_exp_gain="0" >
+		<ingredient name="forgedIron" count="25" />
+		<ingredient name="wood" count="15" />
+		<ingredient name="Drafting Tools" count="1" />
+    </recipe>
+	
+	<recipe name="ironGlovesSchematic" count="1" scrapable="False" craft_time = "10" craft_exp_gain="0" >
+		<ingredient name="forgedIron" count="25" />
+		<ingredient name="wood" count="15" />
+		<ingredient name="Drafting Tools" count="1" />
+    </recipe>
+	
+	<recipe name="sledgehammerSchemtic" count="1" scrapable="False" craft_time = "10" craft_exp_gain="0" >
+		<ingredient name="forgedIron" count="40" />
+		<ingredient name="wood" count="25" />
+		<ingredient name="Drafting Tools" count="1" />
+    </recipe>
+	
+	<recipe name="macDyverBook" count="1" scrapable="False" craft_time = "10" craft_exp_gain="0" >
+		<ingredient name="scrapIron" count="150" />
+		<ingredient name="leather" count="65" />
+		<ingredient name="ductTape" count="35" />
+		<ingredient name="Drafting Tools" count="1" />
+    </recipe>
+	
+	<recipe name="huntingRifleSchematic" count="1" scrapable="False" craft_time = "10" craft_exp_gain="0" >
+		<ingredient name="huntingRifleBarrel" count="1" />
+		<ingredient name="huntingRifleParts" count="1" />
+		<ingredient name="huntingRifleReceiver" count="1" />
+		<ingredient name="huntingRifleStock" count="1" />
+		<ingredient name="Drafting Tools" count="1" />
+    </recipe>
+	
+	<recipe name="sniperRifleSchematic" count="1" scrapable="False" craft_time = "10" craft_exp_gain="0" >
+		<ingredient name="sniperRifleBarrel" count="1" />
+		<ingredient name="sniperRifleParts" count="1" />
+		<ingredient name="sniperRifle_stock" count="1" />
+		<ingredient name="sniperRifle_triggerHousing" count="1" />
+		<ingredient name="Drafting Tools" count="1" />
+    </recipe>
+	
+	<recipe name="setInConcrete" count="1" scrapable="False" craft_time = "10" craft_exp_gain="0" >
+		<ingredient name="rockSmall" count="150" />
+		<ingredient name="gravel" count="50" />
+		<ingredient name="Drafting Tools" count="1" />
+    </recipe>
+	
+	<recipe name="minibikesForDumbshits" count="1" scrapable="False" craft_time = "10" craft_exp_gain="0" >
+		<ingredient name="ductTape" count="30" />
+		<ingredient name="leather" count="45" />
+		<ingredient name="cotton" count="15"/>
+		<ingredient name="forgedIron" count="140" />
+		<ingredient name="Drafting Tools" count="1" />
+    </recipe>
+	
+	<recipe name="theRiddleOfSteel" count="1" scrapable="False" craft_time = "10" craft_exp_gain="0" >
+		<ingredient name="clayLump" count="60" />
+		<ingredient name="forgedIron" count="60" />
+		<ingredient name="wood" count="25" />
+		<ingredient name="Drafting Tools" count="1" />
+    </recipe>
+	
+	<recipe name="herbalAntibioticsRecipe" count="1" scrapable="False" craft_time = "10" craft_exp_gain="0" >
+		<ingredient name="blueberries" count="5" />
+		<ingredient name="potassiumNitratePowder" count="5" />
+		<ingredient name="mushrooms" count="5" />
+		<ingredient name="plantChrysanthemum" count="5"/>
+		<ingredient name="Drafting Tools" count="1" />
+    </recipe>
+
+    <recipe name="shotgunSlugSchematic" count="1" scrapable="False" craft_time = "10" craft_exp_gain="0" >
+		<ingredient name="bulletTip" count="25"/>
+        <ingredient name="gunPowder" count="55"/>
+        <ingredient name="bulletCasing" count="15"/>
+		<ingredient name="Drafting Tools" count="1" />
+    </recipe>
+	
+	<recipe name="762mmBulletSchematic" count="1" scrapable="False" craft_time = "10" craft_exp_gain="0" >
+		<ingredient name="bulletTip" count="5"/>
+        <ingredient name="gunPowder" count="15"/>
+        <ingredient name="bulletCasing" count="5"/>
+		<ingredient name="Drafting Tools" count="1" />
+    </recipe>
+	
+	<recipe name="10mmBulletSchematic" count="1" scrapable="False" craft_time = "10" craft_exp_gain="0" >
+		<ingredient name="bulletTip" count="5"/>
+        <ingredient name="gunPowder" count="10"/>
+        <ingredient name="bulletCasing" count="5"/>
+		<ingredient name="Drafting Tools" count="1" />
+    </recipe>
+	
+	<recipe name="9mmBulletSchematic" count="1" scrapable="False" craft_time = "10" craft_exp_gain="0" >
+		<ingredient name="bulletTip" count="5"/>
+        <ingredient name="gunPowder" count="5"/>
+        <ingredient name="bulletCasing" count="5"/>
+		<ingredient name="Drafting Tools" count="1" />
+    </recipe>
+	
+	<recipe name="handleBarsSchematic" count="1" scrapable="False" craft_time = "10" craft_exp_gain="0" >
+		<ingredient name="ductTape" count="10"/>
+        <ingredient name="leather" count="10"/>
+        <ingredient name="shortMetalPipe" count="50"/>
+		<ingredient name="Drafting Tools" count="1" />
+    </recipe>
+	
+	<recipe name="leatherBootsSchematic" count="1" scrapable="False" craft_time = "10" craft_exp_gain="0" >
+		<ingredient name="leather" count="25"/>
+		<ingredient name="Drafting Tools" count="1" />
+    </recipe>
+	
+	<recipe name="leatherPantsSchematic" count="1" scrapable="False" craft_time = "10" craft_exp_gain="0" >
+		<ingredient name="leather" count="25"/>
+		<ingredient name="Drafting Tools" count="1" />
+    </recipe>
+	
+	<recipe name="leatherJacketSchematic" count="1" scrapable="False" craft_time = "10" craft_exp_gain="0" >
+		<ingredient name="leather" count="50"/>
+		<ingredient name="Drafting Tools" count="1" />
+    </recipe>
+	
+	<recipe name="leatherHoodSchematic" count="1" scrapable="False" craft_time = "10" craft_exp_gain="0" >
+		<ingredient name="leather" count="25"/>
+		<ingredient name="Drafting Tools" count="1" />
+    </recipe>
+	
+	<recipe name="leatherGlovesSchematic" count="1" scrapable="False" craft_time = "10" craft_exp_gain="0" >
+		<ingredient name="leather" count="25"/>
+		<ingredient name="Drafting Tools" count="1" />
+    </recipe>
+	
+	<recipe name="firstAidKitSchematic" count="1" scrapable="False" craft_time = "10" craft_exp_gain="0" >
+		<ingredient name="bloodBag" count="5"/>
+        <ingredient name="grainAlcohol" count="5"/>
+        <ingredient name="bandage" count="5"/>
+		<ingredient name="ductTape" count="5"/>
+		<ingredient name="Drafting Tools" count="1" />
+    </recipe>
+	
+	<recipe name="gasCanSchematic" count="1" scrapable="False" craft_time = "10" craft_exp_gain="0" >
+		<ingredient name="bioFuel" count="15"/>
+        <ingredient name="grainAlcohol" count="15"/>
+		<ingredient name="Drafting Tools" count="1" />
+    </recipe>
+	
+	<recipe name="clubSpikedSchematic" count="1" scrapable="False" craft_time = "10" craft_exp_gain="0" >
+		<ingredient name="forgedIron" count="25"/>
+        <ingredient name="wood" count="25"/>
+		<ingredient name="Drafting Tools" count="1" />
+    </recipe>
+	
+	<recipe name="sawedoffPumpShotgunSchematic" count="1" scrapable="False" craft_time = "10" craft_exp_gain="0" >
+		<ingredient name="PumpShotgun_shortBarrel" count="1"/>
+        <ingredient name="PumpShotgun_receiver" count="1"/>
+        <ingredient name="PumpShotgun_parts" count="1"/>
+        <ingredient name="PumpShotgun_shortStock" count="1"/>
+		<ingredient name="Drafting Tools" count="1" />
+    </recipe>
+	
+	<recipe name="flamingArrowSchematic" count="1" scrapable="False" craft_time = "10" craft_exp_gain="0" >
+		<ingredient name="gunPowder" count="10"/>
+        <ingredient name="cloth" count="5"/>
+        <ingredient name="tallow" count="5"/>
+        <ingredient name="steelArrow" count="5"/>
+		<ingredient name="Drafting Tools" count="1" />
+    </recipe>
+	
+	<recipe name="wrenchSchematic" count="1" scrapable="False" craft_time = "10" craft_exp_gain="0" >
+		<ingredient name="shortMetalPipe" count="35"/>
+		<ingredient name="Drafting Tools" count="1" />
+    </recipe>
+	
+	<recipe name="crossbowSchematic" count="1" scrapable="False" craft_time = "10" craft_exp_gain="0" >
+		<ingredient name="wood" count="50"/>
+        <ingredient name="forgedIron" count="5"/>
+        <ingredient name="leather" count="10"/>
+		<ingredient name="Drafting Tools" count="1" />
+    </recipe>
+	
+	<recipe name="explodingCrossbowBoltSchematic" count="1" scrapable="False" craft_time = "10" craft_exp_gain="0" >
+		<ingredient name="gunPowder" count="125"/>
+        <ingredient name="steelArrow" count="5"/>
+		<ingredient name="ductTape" count="5"/>
+		<ingredient name="Drafting Tools" count="1" />
+    </recipe>
+	
+	<recipe name="Cool Leather Jackets" count="1" scrapable="False" craft_time = "10" craft_exp_gain="0" >
+		<ingredient name="leather" count="100"/>
+		<ingredient name="Drafting Tools" count="1" />
     </recipe>
 </recipes>

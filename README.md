@@ -310,3 +310,122 @@ Training: Leatherworking
   
 Training: Armor Smithing
   * Requires 10 forgedIron and 3 leather
+  
+# Craftable Schematics Mod
+This mod attempts to smooth out some of the randomness in obtaining and unlocking schematics in the game. The idea is fairly simple, if you are able to gather a set of resources and craft them together with books, you can create the schematic you are looking for. The existing schematics in the game are now a source of books, as they can be scrapped into a single book for each schematic you find.
+
+## New additions to materials.xml
+
+Added new material, book, with a weight of 6
+
+## New additions to items.xml
+
+1110: Drafting Tools
+  * Requires 5 books and 1 repair kit to create. Used in crafting schematics.
+
+## Changes to items.xml
+
+The following items have had their material type changed to 'book' and their weight changed to '8':
+  * 27: chainsawSchematic
+  * 28: ak47Schematic
+  * 225: book (Note: Weight set to 6.)
+  * 600: hammerSchematic
+  * 601: huntingKnifeBook
+  * 602: pistolBook
+  * 603: pumpShotgunSchematic
+  * 604: ammunitionNationBook
+  * 605: shotgunShellSchematic
+  * 606: theEnforcerMagazine
+  * 607: smgSchematics
+  * 623: leatherTanning
+  * 624: ironHelmetSchematic
+  * 625: ironChestArmorSchematic
+  * 626: ironLegArmorSchematic
+  * 627: ironBootsSchematic
+  * 628: ironGlovesSchematic
+  * 641: sledgehammerSchemtic
+  * 695: macDyverBook
+  * 724: huntingRifleSchematic
+  * 725: sniperRifleSchematic
+  * 745: setInConcrete
+  * 749: minibikesForDumbshits
+  * 755: theRiddleOfSteel
+  * 757: herbalAntibioticsRecipe
+  * 770: shotgunSlugSchematic
+  * 771: 762mmBulletSchematic
+  * 772: 10mmBulletSchematic
+  * 775: 9mmBulletSchematic
+  * 776: handleBarsSchematic
+  * 778: leatherBootsSchematic
+  * 779: leatherPantsSchematic
+  * 780: leatherJacketSchematic
+  * 781: leatherHoodSchematic
+  * 782: leatherGlovesSchematic
+  * 790: firstAidKitSchematic
+  * 791: gasCanSchematic
+  * 792: clubSpikedSchematic
+  * 793: sawedoffPumpShotgunSchematic
+  * 794: flamingArrowSchematic
+  * 795: augerSchematic
+  * 796: wrenchSchematic
+  * 800: crossbowSchematic
+  * 801: explodingCrossbowBoltSchematic
+  * 810: invisibleRecipesForRepairCost
+  * 843: rocketLauncherSchematic
+  * 1010: Cool Leather Jackets
+  
+This allows the above list of items to be scrapped into a single book.
+
+# New additions to recipes.xml
+
+Added a forge wildcard category for material type book, to allow schematics to be scrapped into books instead of paper.<br>
+<br>
+New recipes added to create the following schematics:
+  * 28: ak47Schematic
+  * 600: hammerSchematic
+  * 601: huntingKnifeBook
+  * 602: pistolBook
+  * 603: pumpShotgunSchematic
+  * 604: ammunitionNationBook
+  * 605: shotgunShellSchematic
+  * 606: theEnforcerMagazine
+  * 607: smgSchematics
+  * 623: leatherTanning
+  * 624: ironHelmetSchematic
+  * 625: ironChestArmorSchematic
+  * 626: ironLegArmorSchematic
+  * 627: ironBootsSchematic
+  * 628: ironGlovesSchematic
+  * 641: sledgehammerSchemtic
+  * 695: macDyverBook
+  * 724: huntingRifleSchematic
+  * 725: sniperRifleSchematic
+  * 745: setInConcrete
+  * 749: minibikesForDumbshits
+  * 755: theRiddleOfSteel
+  * 757: herbalAntibioticsRecipe
+  * 770: shotgunSlugSchematic
+  * 771: 762mmBulletSchematic
+  * 772: 10mmBulletSchematic
+  * 775: 9mmBulletSchematic
+  * 776: handleBarsSchematic
+  * 778: leatherBootsSchematic
+  * 779: leatherPantsSchematic
+  * 780: leatherJacketSchematic
+  * 781: leatherHoodSchematic
+  * 782: leatherGlovesSchematic
+  * 790: firstAidKitSchematic
+  * 791: gasCanSchematic
+  * 792: clubSpikedSchematic
+  * 793: sawedoffPumpShotgunSchematic
+  * 794: flamingArrowSchematic
+  * 796: wrenchSchematic
+  * 800: crossbowSchematic
+  * 801: explodingCrossbowBoltSchematic
+  * 1010: Cool Leather Jackets
+  
+The above schematics all require Drafting Tools and additional materials to create. Some schematics have not be included due to the rare nature of the materials that would be required. The typical requirements are either five times the raw materials of creating the item, or in the case of weapons, one each of the components used to assemble the weapon. <b>All materials will be consumed.</b>
+
+Drafting Tools
+  * Requires 5 books and 1 repairKit to create
+  * Used in recipes to create schematics
